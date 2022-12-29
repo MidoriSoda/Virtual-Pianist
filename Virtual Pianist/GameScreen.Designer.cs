@@ -1,0 +1,394 @@
+﻿namespace Virtual_Pianist
+{
+    partial class VirtualPianist
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.keyC = new System.Windows.Forms.Button();
+            this.keyD = new System.Windows.Forms.Button();
+            this.keyE = new System.Windows.Forms.Button();
+            this.keyF = new System.Windows.Forms.Button();
+            this.keyG = new System.Windows.Forms.Button();
+            this.keyC1 = new System.Windows.Forms.Button();
+            this.keyD1 = new System.Windows.Forms.Button();
+            this.keyE1 = new System.Windows.Forms.Button();
+            this.keyF1 = new System.Windows.Forms.Button();
+            this.keyCsharp = new System.Windows.Forms.Button();
+            this.keyDsharp = new System.Windows.Forms.Button();
+            this.keyFsharp = new System.Windows.Forms.Button();
+            this.keyGsharp = new System.Windows.Forms.Button();
+            this.keyBb = new System.Windows.Forms.Button();
+            this.keyA = new System.Windows.Forms.Button();
+            this.keyB = new System.Windows.Forms.Button();
+            this.keyCsharp1 = new System.Windows.Forms.Button();
+            this.keyDsharp1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // keyC
+            // 
+            this.keyC.BackColor = System.Drawing.Color.White;
+            this.keyC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyC.Location = new System.Drawing.Point(12, 233);
+            this.keyC.Name = "keyC";
+            this.keyC.Size = new System.Drawing.Size(70, 350);
+            this.keyC.TabIndex = 0;
+            this.keyC.Text = "C";
+            this.keyC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyC.UseVisualStyleBackColor = false;
+            this.keyC.Click += new System.EventHandler(this.keyC_Click);
+            // 
+            // keyD
+            // 
+            this.keyD.BackColor = System.Drawing.Color.White;
+            this.keyD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyD.Location = new System.Drawing.Point(88, 233);
+            this.keyD.Name = "keyD";
+            this.keyD.Size = new System.Drawing.Size(70, 350);
+            this.keyD.TabIndex = 1;
+            this.keyD.Text = "D";
+            this.keyD.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyD.UseVisualStyleBackColor = false;
+            this.keyD.Click += new System.EventHandler(this.keyD_Click);
+            // 
+            // keyE
+            // 
+            this.keyE.BackColor = System.Drawing.Color.White;
+            this.keyE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyE.Location = new System.Drawing.Point(164, 233);
+            this.keyE.Name = "keyE";
+            this.keyE.Size = new System.Drawing.Size(70, 350);
+            this.keyE.TabIndex = 2;
+            this.keyE.Text = "E";
+            this.keyE.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyE.UseVisualStyleBackColor = false;
+            this.keyE.Click += new System.EventHandler(this.keyE_Click);
+            // 
+            // keyF
+            // 
+            this.keyF.BackColor = System.Drawing.Color.White;
+            this.keyF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyF.Location = new System.Drawing.Point(240, 233);
+            this.keyF.Name = "keyF";
+            this.keyF.Size = new System.Drawing.Size(70, 350);
+            this.keyF.TabIndex = 3;
+            this.keyF.Text = "F";
+            this.keyF.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyF.UseVisualStyleBackColor = false;
+            this.keyF.Click += new System.EventHandler(this.keyF_Click);
+            // 
+            // keyG
+            // 
+            this.keyG.BackColor = System.Drawing.Color.White;
+            this.keyG.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyG.Location = new System.Drawing.Point(316, 233);
+            this.keyG.Name = "keyG";
+            this.keyG.Size = new System.Drawing.Size(70, 350);
+            this.keyG.TabIndex = 4;
+            this.keyG.Text = "G";
+            this.keyG.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyG.UseVisualStyleBackColor = false;
+            this.keyG.Click += new System.EventHandler(this.keyG_Click);
+            // 
+            // keyC1
+            // 
+            this.keyC1.BackColor = System.Drawing.Color.White;
+            this.keyC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyC1.Location = new System.Drawing.Point(544, 233);
+            this.keyC1.Name = "keyC1";
+            this.keyC1.Size = new System.Drawing.Size(70, 350);
+            this.keyC1.TabIndex = 5;
+            this.keyC1.Text = "C1";
+            this.keyC1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyC1.UseVisualStyleBackColor = false;
+            this.keyC1.Click += new System.EventHandler(this.keyC1_Click);
+            // 
+            // keyD1
+            // 
+            this.keyD1.BackColor = System.Drawing.Color.White;
+            this.keyD1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyD1.Location = new System.Drawing.Point(620, 233);
+            this.keyD1.Name = "keyD1";
+            this.keyD1.Size = new System.Drawing.Size(70, 350);
+            this.keyD1.TabIndex = 6;
+            this.keyD1.Text = "D1";
+            this.keyD1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyD1.UseVisualStyleBackColor = false;
+            this.keyD1.Click += new System.EventHandler(this.keyD1_Click);
+            // 
+            // keyE1
+            // 
+            this.keyE1.BackColor = System.Drawing.Color.White;
+            this.keyE1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyE1.Location = new System.Drawing.Point(696, 233);
+            this.keyE1.Name = "keyE1";
+            this.keyE1.Size = new System.Drawing.Size(70, 350);
+            this.keyE1.TabIndex = 7;
+            this.keyE1.Text = "E1";
+            this.keyE1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyE1.UseVisualStyleBackColor = false;
+            this.keyE1.Click += new System.EventHandler(this.keyE1_Click);
+            // 
+            // keyF1
+            // 
+            this.keyF1.BackColor = System.Drawing.Color.White;
+            this.keyF1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyF1.Location = new System.Drawing.Point(772, 233);
+            this.keyF1.Name = "keyF1";
+            this.keyF1.Size = new System.Drawing.Size(70, 350);
+            this.keyF1.TabIndex = 8;
+            this.keyF1.Text = "F1";
+            this.keyF1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyF1.UseVisualStyleBackColor = false;
+            this.keyF1.Click += new System.EventHandler(this.keyF1_Click);
+            // 
+            // keyCsharp
+            // 
+            this.keyCsharp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyCsharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyCsharp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyCsharp.Location = new System.Drawing.Point(56, 233);
+            this.keyCsharp.Name = "keyCsharp";
+            this.keyCsharp.Size = new System.Drawing.Size(54, 256);
+            this.keyCsharp.TabIndex = 9;
+            this.keyCsharp.Text = "C#";
+            this.keyCsharp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyCsharp.UseVisualStyleBackColor = false;
+            this.keyCsharp.Click += new System.EventHandler(this.keyCsharp_Click);
+            // 
+            // keyDsharp
+            // 
+            this.keyDsharp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyDsharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyDsharp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyDsharp.Location = new System.Drawing.Point(136, 233);
+            this.keyDsharp.Name = "keyDsharp";
+            this.keyDsharp.Size = new System.Drawing.Size(54, 256);
+            this.keyDsharp.TabIndex = 10;
+            this.keyDsharp.Text = "D#";
+            this.keyDsharp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyDsharp.UseVisualStyleBackColor = false;
+            this.keyDsharp.Click += new System.EventHandler(this.keyDsharp_Click);
+            // 
+            // keyFsharp
+            // 
+            this.keyFsharp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyFsharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyFsharp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyFsharp.Location = new System.Drawing.Point(285, 233);
+            this.keyFsharp.Name = "keyFsharp";
+            this.keyFsharp.Size = new System.Drawing.Size(54, 256);
+            this.keyFsharp.TabIndex = 11;
+            this.keyFsharp.Text = "F#";
+            this.keyFsharp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyFsharp.UseVisualStyleBackColor = false;
+            this.keyFsharp.Click += new System.EventHandler(this.keyFsharp_Click);
+            // 
+            // keyGsharp
+            // 
+            this.keyGsharp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyGsharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyGsharp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyGsharp.Location = new System.Drawing.Point(360, 233);
+            this.keyGsharp.Name = "keyGsharp";
+            this.keyGsharp.Size = new System.Drawing.Size(54, 256);
+            this.keyGsharp.TabIndex = 12;
+            this.keyGsharp.Text = "G#";
+            this.keyGsharp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyGsharp.UseVisualStyleBackColor = false;
+            this.keyGsharp.Click += new System.EventHandler(this.keyGsharp_Click);
+            // 
+            // keyBb
+            // 
+            this.keyBb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyBb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyBb.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyBb.Location = new System.Drawing.Point(437, 233);
+            this.keyBb.Name = "keyBb";
+            this.keyBb.Size = new System.Drawing.Size(54, 256);
+            this.keyBb.TabIndex = 13;
+            this.keyBb.Text = "Bb";
+            this.keyBb.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyBb.UseVisualStyleBackColor = false;
+            this.keyBb.Click += new System.EventHandler(this.keyBb_Click);
+            // 
+            // keyA
+            // 
+            this.keyA.BackColor = System.Drawing.Color.White;
+            this.keyA.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyA.Location = new System.Drawing.Point(392, 233);
+            this.keyA.Name = "keyA";
+            this.keyA.Size = new System.Drawing.Size(70, 350);
+            this.keyA.TabIndex = 14;
+            this.keyA.Text = "A";
+            this.keyA.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyA.UseVisualStyleBackColor = false;
+            this.keyA.Click += new System.EventHandler(this.keyA_Click);
+            // 
+            // keyB
+            // 
+            this.keyB.BackColor = System.Drawing.Color.White;
+            this.keyB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyB.Location = new System.Drawing.Point(468, 233);
+            this.keyB.Name = "keyB";
+            this.keyB.Size = new System.Drawing.Size(70, 350);
+            this.keyB.TabIndex = 15;
+            this.keyB.Text = "B";
+            this.keyB.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyB.UseVisualStyleBackColor = false;
+            this.keyB.Click += new System.EventHandler(this.keyB_Click);
+            // 
+            // keyCsharp1
+            // 
+            this.keyCsharp1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyCsharp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyCsharp1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyCsharp1.Location = new System.Drawing.Point(582, 233);
+            this.keyCsharp1.Name = "keyCsharp1";
+            this.keyCsharp1.Size = new System.Drawing.Size(54, 256);
+            this.keyCsharp1.TabIndex = 16;
+            this.keyCsharp1.Text = "C#1";
+            this.keyCsharp1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyCsharp1.UseVisualStyleBackColor = false;
+            this.keyCsharp1.Click += new System.EventHandler(this.keyCsharp1_Click);
+            // 
+            // keyDsharp1
+            // 
+            this.keyDsharp1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.keyDsharp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.keyDsharp1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.keyDsharp1.Location = new System.Drawing.Point(666, 233);
+            this.keyDsharp1.Name = "keyDsharp1";
+            this.keyDsharp1.Size = new System.Drawing.Size(54, 256);
+            this.keyDsharp1.TabIndex = 17;
+            this.keyDsharp1.Text = "D#1";
+            this.keyDsharp1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.keyDsharp1.UseVisualStyleBackColor = false;
+            this.keyDsharp1.Click += new System.EventHandler(this.keyDsharp1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Brush Script MT", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(264, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(350, 79);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Virtual Pianist";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(12, 59);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 79);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "Exit Standard Mode";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(12, 144);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(87, 79);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "Tutorial Mode";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // VirtualPianist
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(851, 588);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.keyDsharp1);
+            this.Controls.Add(this.keyCsharp1);
+            this.Controls.Add(this.keyGsharp);
+            this.Controls.Add(this.keyBb);
+            this.Controls.Add(this.keyA);
+            this.Controls.Add(this.keyFsharp);
+            this.Controls.Add(this.keyDsharp);
+            this.Controls.Add(this.keyCsharp);
+            this.Controls.Add(this.keyF1);
+            this.Controls.Add(this.keyE1);
+            this.Controls.Add(this.keyD1);
+            this.Controls.Add(this.keyC1);
+            this.Controls.Add(this.keyG);
+            this.Controls.Add(this.keyF);
+            this.Controls.Add(this.keyE);
+            this.Controls.Add(this.keyD);
+            this.Controls.Add(this.keyC);
+            this.Controls.Add(this.keyB);
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "VirtualPianist";
+            this.Text = "Virtual Pianist";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button keyC;
+        private System.Windows.Forms.Button keyD;
+        private System.Windows.Forms.Button keyE;
+        private System.Windows.Forms.Button keyF;
+        private System.Windows.Forms.Button keyG;
+        private System.Windows.Forms.Button keyC1;
+        private System.Windows.Forms.Button keyD1;
+        private System.Windows.Forms.Button keyE1;
+        private System.Windows.Forms.Button keyF1;
+        private System.Windows.Forms.Button keyCsharp;
+        private System.Windows.Forms.Button keyDsharp;
+        private System.Windows.Forms.Button keyFsharp;
+        private System.Windows.Forms.Button keyGsharp;
+        private System.Windows.Forms.Button keyBb;
+        private System.Windows.Forms.Button keyA;
+        private System.Windows.Forms.Button keyB;
+        private System.Windows.Forms.Button keyCsharp1;
+        private System.Windows.Forms.Button keyDsharp1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+    }
+}
+
